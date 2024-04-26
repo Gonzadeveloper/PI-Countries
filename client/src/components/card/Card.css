@@ -1,0 +1,131 @@
+.card {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    
+  
+    &:hover {
+      transform: scale(1.05);
+      transition-duration: 200ms;
+    }
+  
+    &:hover > img {
+      margin-top: -20px;
+      transform: scale(1.15);
+      transition-duration: 300ms;
+      filter: drop-shadow(1px 3px 0px black);
+    }
+  
+    .img_poke {
+      width: 160px;
+      margin: 0 auto;
+      z-index: 20;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .sub_card {
+      position: absolute;
+      border-radius: 10px;
+      min-height: 370px;
+      padding: 15px;
+      width: 100%;
+      margin-top: 100px;
+      padding-top: 15px;
+      border: 1px solid #42424242;
+      background-color: rgb(26, 26, 26); /* Color blanco con 80% de opacidad */
+      box-shadow: 1px 1px 0px hsl(0, 0%, 17%), 2px 2px 0px hsl(0, 0%, 42%),
+        3px 3px 0px hsl(0, 0%, 63%), 4px 4px 0px hsl(0, 0%, 100%),
+        5px 5px 0px hsl(0, 0%, 100%);
+    }
+  
+    .id_card {
+      background-color: #000000;
+      border: 1px solid #424242dd;
+      width: auto;
+      padding: 1px 4px;
+      font-size: 0.85rem;
+      border-radius: 5px;
+      display: inline-block;
+      color:  #ffffff;;
+    }
+  
+    .name_card {
+      margin-top: 8px;
+      font-size: 1.2rem;
+      display: block;
+      font-weight: 900;
+      background-color: #000000;
+      -webkit-text-fill-color: #ffffff;
+      text-decoration: none;
+      outline: none;
+      border-radius: 5px;
+    }
+    
+    .hp_card,
+    .speed_card,
+    .height_poke,
+    .weight_poke
+    .attack_card,
+    .defense_card {
+      margin-top: 2px;
+      font-size: 0.75rem;
+      text-transform: capitalize;
+      display: block;
+      color: #484848;
+    }
+  
+    .div_stats {
+      margin: 4px 0;
+      width: 100%;
+      padding: 5px;
+  
+      .item_stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  
+        .name {
+          width: 90px;
+          text-transform: capitalize;
+          color: #484848;
+        }
+  
+        .numero {
+          width: 22px;
+          text-align: end;
+          color: #484848;
+        }
+      }
+    }
+  
+    .div_type_color {
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 0;
+  
+      .color_type {
+        border: 1px solid #424242;
+        border-radius: 4px;
+        text-align: center;
+        height: 20px;
+        line-height: 17px;
+        width: 50px;
+        color: white;
+      }
+    }
+    .mini_img{
+      width: 30%;
+    }
+    .name{
+      color: #ffffff;
+      font-weight: 700;
+    }
+    .campos{
+      color: #ffffff;
+      font-weight: 250;
+      font-size: 0.9em;
+    }
+}

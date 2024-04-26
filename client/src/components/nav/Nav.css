@@ -1,0 +1,88 @@
+.header {
+  background-color: #292929;
+  display: flex;
+  padding-left: 13%;
+  padding-right: 13%;
+  align-items: center; /* Centra verticalmente */
+  justify-content: space-between; /* Ajusta según tu diseño específico */
+  margin: 0 auto; /* Para centrar horizontalmente en la pantalla */
+  border-radius: 1em;
+}
+  
+  .header .div_header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    max-width: calc(100% - 30px);
+    margin: 0 auto;
+  }
+
+  .div_Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea al final del contenedor */
+  }
+
+  .div_Buttons button{
+    border-radius: 3em;
+    width: 5em;
+    height: 2em;
+  }
+
+  .div_Buttons input{
+    border-radius: 3em;
+    width: 14em;
+    height: 2em;
+  }
+  
+  .div_Buttons > * {
+    margin-left: 10px; /* Ajusta la separación entre elementos */
+  }
+  .header .div_header .div_logo button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .header .div_header .div_logo button img {
+    width: 80px; /* Mantienes el tamaño de la imagen */
+
+  }
+  
+  .header .div_header .div_search {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    box-shadow: 1px 1px 4px #000;
+  
+    @media screen and (max-width: 500px) {
+      width: 50%;
+    }
+  
+    .header .div_header .div_search > div {
+      width: 20%;
+      background-color: rgb(31, 134, 237);
+      height: 30px;
+      display: grid;
+      place-items: center;
+      color: white;
+    }
+  
+    .header .div_header .div_search > input {
+      width: 80%;
+      padding: 4px 10px;
+      height: 30px;
+      border: none;
+      outline: none;
+    }
+
+  }
+
+

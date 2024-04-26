@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .container h1 {
+    font-size: 6em;
+    margin-bottom: 0.3em;
+  }
+  
+  .container p {
+    font-size: 1.2em;
+  }
+  .buttonAcces{
+    font-size: 1em;
+    margin-top: 3em;
+    border-radius: 1em;
+    height: 3em;
+    width: 9em;
+  }

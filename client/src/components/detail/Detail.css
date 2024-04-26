@@ -1,0 +1,27 @@
+
+  .container_detail {
+    margin-top: 3em;
+    margin-left: 15em;
+    color: white;
+    border: 2px solid rgb(255, 255, 255); /* Ajusta el grosor del borde según tus preferencias */
+    width: 350%;/* Ajusta el relleno según tus preferencias */
+    height: 100%;
+    background-color: rgb(44, 44, 44);
+    border-radius: 2em;
+    padding-left: 3em;
+    padding-top: 2em;
+
+  }
+
+  .container_detail h1{
+    font-size: 5em;
+    padding-bottom: 1em;
+  }
+
+  .container_detail h4 {
+    margin-top: 1em;
+  }
+
+  .container_detail img{
+    margin-top: 1em;
+  }

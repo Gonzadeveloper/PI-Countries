@@ -1,0 +1,33 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: url('../assets/background.png') center center fixed; /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; /* Fondo negro */
+}
+  
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(18, 113, 215);
+    border-radius: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #afaeae;
+  }
+  
+  
